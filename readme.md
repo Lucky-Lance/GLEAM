@@ -1,5 +1,7 @@
 # GLEAM: Learning to Match and Explain in Cross-View Geo-Localization
 
+Xudong Lu\*, Zhi Zheng\*, Yi Wan, Yongxiang Yao, Annan Wang, Renrui Zhang, Panwang Xia, Qiong Wu, Qingyun Li, Weifeng Lin, Xiangyu Zhao, Xue Yang, Hongsheng Li
+
 ![GLEAM Overview](asserts/overview.png)
 
 This repository contains the official implementation of **GLEAM**, a foundational pipeline for Cross-View Geo-Localization (CVGL) that unifies multi-modal and multi-view alignment with explainable reasoning. GLEAM consists of two core components:
@@ -27,7 +29,22 @@ GLEAM-X introduces a new task combining cross-view correspondence prediction wit
 - A bilingual dataset generated using GPT-4o and Doubao-1.5-Thinking-Vision-Pro.
 - A human-refined test set for systematic evaluation of explainable reasoning.
 
+## 📜 Citation 
+
+If you find our paper useful in your research, please cite
+
+```
+@misc{lu2025gleamlearningmatchexplain,
+      title={GLEAM: Learning to Match and Explain in Cross-View Geo-Localization}, 
+      author={Xudong Lu and Zhi Zheng and Yi Wan and Yongxiang Yao and Annan Wang and Renrui Zhang and Panwang Xia and Qiong Wu and Qingyun Li and Weifeng Lin and Xiangyu Zhao and Xue Yang and Hongsheng Li},
+      year={2025},
+      eprint={2509.07450},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2509.07450}, 
+}
+```
 
 ---
-> 🔔 **Note**: This repository is under active development. Code and data will be fully released upon acceptance.
+> 🔔 **Note**: This repository is under active development. Code and data will be fully released upon paper acceptance.
 
